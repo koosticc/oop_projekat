@@ -3,7 +3,7 @@ Atrbuti:koordinata x <br>
 		koordinata y <br>
 Zahtevi:<br>
  * [x] 1. Treba da ima prazan konstruktor<br>
- * [ ] 2. Treba da ima metodu kojom se racuna rastojanje od neke druge tacke.<br>
+ * [x] 2. Treba da ima metodu kojom se racuna rastojanje od neke druge tacke.<br>
  * [ ] 3. Treba da sadrzi metodu kojom se odredjuje da li tacka sadrzi neku drugu tacku.(Uslov distanca =< 2)<br>
  * [ ] 4. Klasa tacka treba da ima metodu too string koja vraca koordinate tacke(razdvojene zarezima)<br>
  * [ ] 5. Treba da ima metodu equals koja prima univerzalni tip object i vraca boolean u zavisnosti da li je poslati objekat jednak sa datim objektom<br>

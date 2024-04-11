@@ -13,4 +13,10 @@ public class PointTest {
         Point test = new Point();
         assertNotEquals(test, null);
     }
+
+    @Test
+    public void test_rastojanjeIzmedjuDveTacke() {
+        Point test1 = new Point();
+        assertEquals(test1.rastojanjeIzmedjuDveTacke(2, 2, 4, 2), 2);
+    }
 }
