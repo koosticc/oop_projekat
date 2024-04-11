@@ -2,7 +2,7 @@
 Atrbuti:koordinata x <br>
 		koordinata y <br>
 Zahtevi:<br>
- * [ ] 1. Treba da ima prazan konstruktor<br>
+ * [x] 1. Treba da ima prazan konstruktor<br>
  * [ ] 2. Treba da ima metodu kojom se racuna rastojanje od neke druge tacke.<br>
  * [ ] 3. Treba da sadrzi metodu kojom se odredjuje da li tacka sadrzi neku drugu tacku.(Uslov distanca =< 2)<br>
  * [ ] 4. Klasa tacka treba da ima metodu too string koja vraca koordinate tacke(razdvojene zarezima)<br>
