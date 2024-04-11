@@ -48,4 +48,11 @@ public class PointTest {
         assertEquals(d1, 2);
 
     }
+    @Test
+    public void testContains() {
+        Point test1 = new Point(2, 2);
+        double d1=test1.distance(2, 0);
+        assertTrue(test1.contains(3, 3));
+
+    }
 }
