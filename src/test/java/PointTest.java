@@ -28,9 +28,10 @@ public class PointTest {
     }
     @Test
     public void testDefault() {
-        Point test1 = new Point();
-        Point test2 = new Point();
-        assertFalse(test2.GetSelected());
+        Point test3 = new Point();
+        Point test4 = new Point();
+        assertFalse(test3.GetSelected());
+        assertFalse(test4.GetSelected());
 
     }
     @Test
@@ -38,6 +39,13 @@ public class PointTest {
         Point test1 = new Point(1,2);
         Point test2 = new Point(2,1);
         assertFalse(test1.equals(test2));
+
+    }
+    @Test
+    public void testDistance() {
+        Point test1 = new Point(2, 2);
+        double d1=test1.distance(2, 0);
+        assertEquals(d1, 2);
 
     }
 }
