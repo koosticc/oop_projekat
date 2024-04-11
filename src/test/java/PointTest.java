@@ -33,4 +33,11 @@ public class PointTest {
         assertFalse(test2.GetSelected());
 
     }
+    @Test
+    public void testEquals() {
+        Point test1 = new Point(1,2);
+        Point test2 = new Point(2,1);
+        assertFalse(test1.equals(test2));
+
+    }
 }
