@@ -30,4 +30,4 @@ ZAHTEVI: <br>
 
 13. Treba da overajduje metodu MoveBy iz klase Shape.
 
-14. Treba da overrajduje metodu CompareTo.
+14. Treba da overrajduje metodu CompareTo..
