@@ -7,4 +7,10 @@ public class PointTest {
         Point test = new Point(5, 5);
         assertEquals(test.getX(), 5);
     }
+
+    @Test
+    public void test_prazanKonstruktor() {
+        Point test = new Point();
+        assertNotEquals(test, null);
+    }
 }
