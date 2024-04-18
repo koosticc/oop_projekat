@@ -57,6 +57,7 @@ public class PointTest {
     @Test
     public void TestExtends(){
         assertTrue(Shape.class.isAssignableFrom(Point.class));
+        assertFalse(Point.class.isAssignableFrom(Shape.class));
     }
 
 }
