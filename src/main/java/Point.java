@@ -46,7 +46,7 @@ public class Point extends Shape {
     public boolean contains(int x, int y) {
 		return this.distance(x,y)<=2;
 	}
-    public String TOString (int x, int y){
+    public String TOString (){
         return "("+this.x+","+this.y+")"; 
     }
 

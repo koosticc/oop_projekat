@@ -64,5 +64,12 @@ public class PointTest {
         assertEquals(test.getY(),5);
         assertEquals(test.GetSelected(), true);
     }
+    @Test
+    public void Test_Za_TOString(){
+        Point test=new Point(3, 5);
+        String teststring=test.TOString();
+        String text= "(3,5)";
+        assertEquals(teststring, text);
+    }
 
 }
