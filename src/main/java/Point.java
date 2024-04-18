@@ -1,4 +1,5 @@
-public class Point {
+import java.awt.Graphics;
+public class Point extends Shape {
 
     private int x=5;
     private int y=5;
@@ -45,6 +46,9 @@ public class Point {
     public boolean contains(int x, int y) {
 		return this.distance(x,y)<=2;
 	}
+    public String TOString (int x, int y){
+        return "("+this.x+","+this.y+")"; 
+    }
 
 
     public int getX() {
@@ -62,4 +66,8 @@ public class Point {
     public void setY(int y){
         this.y=y;
     }
+    @Override
+	public void draw(Graphics g) {
+		// TODO Auto-generated method stub
+}
 }

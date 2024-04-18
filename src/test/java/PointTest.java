@@ -32,7 +32,6 @@ public class PointTest {
         Point test4 = new Point();
         assertFalse(test3.GetSelected());
         assertFalse(test4.GetSelected());
-
     }
     @Test
     public void testEquals() {
@@ -55,4 +54,9 @@ public class PointTest {
         assertTrue(test1.contains(3, 3));
 
     }
+    @Test
+    public void TestExtends(){
+        assertTrue(Shape.class.isAssignableFrom(Point.class));
+    }
+
 }
