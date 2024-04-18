@@ -26,11 +26,12 @@ public class Point extends Shape{
     }
 
     public boolean equals(Point p1, Point p2){
-        if(p1.getX() == p2.getX() && p1.getY() == p2.getY()){
+        if(p1.x == p2.x && p1.y == p2.y){
             return true;
         }
         else{
             return false;
+            
         }
     }
 

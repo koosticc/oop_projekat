@@ -43,8 +43,8 @@ public class PointTest {
 
     @Test
     public void test_equals(){
-        Point test1 = new Point();
-        Point test2 = new Point();
+        Point test1 = new Point(2, 2);
+        Point test2 = new Point(2, 2);
         assertTrue(test1.equals(test1, test2));
     }
 }
