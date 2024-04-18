@@ -1,8 +1,8 @@
 import java.awt.Graphics;
 public class Point extends Shape {
 
-    private int x=5;
-    private int y=5;
+    private int x;
+    private int y;
     private boolean selected=false;
 
     public Point(int x, int y, boolean selected) {

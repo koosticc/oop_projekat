@@ -20,10 +20,10 @@ public class PointTest {
     }
     @Test
     public void testSELECTABLE() {
-        Point test1 = new Point(3, 5, true);
-        Point test2 = new Point(3, 5, false);
-        assertTrue(test1.GetSelected());
-        assertFalse(test2.GetSelected());
+        Point test3 = new Point(3, 5, true);
+        Point test4 = new Point(3, 5, false);
+        assertTrue(test3.GetSelected());
+        assertFalse(test4.GetSelected());
 
     }
     @Test
