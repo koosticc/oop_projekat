@@ -4,18 +4,18 @@ import org.junit.jupiter.api.Test;
 public class PointTest {
     @Test
     public void testGET() {
-        Point test = new Point(5, 7);
-        assertEquals(test.getX(), 5);
-        assertEquals(test.getY(), 7);
+        Point test1 = new Point(5, 7);
+        assertEquals(test1.getX(), 5);
+        assertEquals(test1.getY(), 7);
 
     }
     @Test
     public void testSET() {
-        Point test = new Point();
-        test.setX(5);
-        test.setY(7);   
-        assertEquals(test.getX(), 5);
-        assertEquals(test.getY(), 7);
+        Point test1 = new Point();
+        test1.setX(5);
+        test1.setY(7);   
+        assertEquals(test1.getX(), 5);
+        assertEquals(test1.getY(), 7);
 
     }
     @Test
