@@ -67,7 +67,18 @@ public class Point extends Shape {
         this.y=y;
     }
     @Override
-	public void draw(Graphics g) {
-		// TODO Auto-generated method stub
-}
+    public void moveBy(int byX, int byY) {
+        this.x= x+byX;
+        this.y= y+byY;
+    }
+    @Override
+    public void draw(Graphics g) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'draw'");
+    }
+    @Override
+    public void moveTo(int x, int y) {
+        this.x=x;
+        this.y=y;
+    }
 }
