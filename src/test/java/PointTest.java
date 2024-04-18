@@ -57,5 +57,12 @@ public class PointTest {
         assertTrue(Shape.class.isAssignableFrom(Point.class));
         assertFalse(Point.class.isAssignableFrom(Shape.class));
     }
+    @Test
+    public void KonstruktorTest(){
+        Point test = new Point(4,5,true);
+        assertEquals(test.getX(), 4);
+        assertEquals(test.getY(),5);
+        assertEquals(test.GetSelected(), true);
+    }
 
 }
