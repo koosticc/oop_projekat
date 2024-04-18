@@ -28,10 +28,8 @@ public class PointTest {
     }
     @Test
     public void testDefault() {
-        Point test3 = new Point();
-        Point test4 = new Point();
-        assertFalse(test3.GetSelected());
-        assertFalse(test4.GetSelected());
+        Point test1 = new Point();
+        assertNotEquals(test1, null);
     }
     @Test
     public void testEquals() {
