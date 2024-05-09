@@ -1,3 +1,4 @@
+import java.awt.Color;
 import java.awt.Graphics;
 public class Point extends Shape {
 
@@ -71,11 +72,21 @@ public class Point extends Shape {
         this.x= x+byX;
         this.y= y+byY;
     }
-    @Override
-    public void draw(Graphics g) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'draw'");
-    }
+
+     @Override
+     public void draw(Graphics g) {
+             g.setColor(Color.BLACK);
+              // Crtanje linije
+            g.drawLine(x - 2, y, x + 2, y);
+            g.drawLine(x, y - 2, x, y + 2);
+              // Ako je tacka selektovana, postavi boju na plavu
+              if (selected==true) {
+                 g.setColor(Color.BLUE);
+                 // Crtanje pravougaonika oko tacke
+                g.drawRect(x - 2, y - 2, 4, 4);
+             }
+     }
+
     @Override
     public void moveTo(int x, int y) {
         this.x=x;
