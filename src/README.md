@@ -22,7 +22,7 @@ ZAHTEVI: <br>
 
 9. Klasa tacka mora da ima metodu equals koji prima objekat i vraca boolean vrednost da li su objekti jednaki./
 
-10. Treba da ima getere i setere za kordinate./
+10. Treba da ima getere i setere za kordinate.
 
 11. Tacka treba da overajduje metodu draw i da u toj metodi setuje boju na crnu i da u metodi drow lajna napravi sledece atribute x-2, y, x+2 i da u toj metodi nacrta liniju sa sledecim atributama x, y-2, x, y+2 i onda ako je tacka selektovana treba da promeni boju u plavu i da se oko nje nacrta rectangle koristeci metodu draw rectangle: x-2, y-2, 4, 4.
 
